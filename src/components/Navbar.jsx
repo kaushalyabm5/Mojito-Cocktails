@@ -21,7 +21,7 @@ const Navbar = () => {
         });
     }) 
   return (
-    <nav className='px-20 pb-10'>
+    <nav className='px-20 '>
         <div>
             <a href='#home' className='flex items-center gap-2'>
                 <img src='/images/logo.png' alt='logo' />
