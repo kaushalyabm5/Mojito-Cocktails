@@ -58,6 +58,7 @@ const Hero = () => {
                 end: endValue,
                 scrub: true,
                 pin: true,
+                 
             }
         })
 
@@ -70,7 +71,7 @@ const Hero = () => {
  
   return (
     <>
-        <section id='hero' className='noisy'>
+        <section id='hero' className='noisy overflow-hidden relative'>
             <h1 className='title'>MOJITO</h1>
 
             <img 
@@ -112,7 +113,6 @@ const Hero = () => {
                 muted
                 playsInline
                 preload="auto"
-          
             />
         </div>
     </>
