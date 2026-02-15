@@ -7,6 +7,7 @@ import About from './components/About';
 import Art from './components/Art';
 import Menu from './components/Menu';
 import Contact from './components/Contact';
+import SmoothScroll from './components/SmoothScroll';
 
 
 
@@ -18,8 +19,8 @@ const App = () => {
 
   return (
 
-    
-    <main>
+    <SmoothScroll>
+      <main>
       <Navbar />
       <Hero />
       <Cocktails />
@@ -29,6 +30,9 @@ const App = () => {
       <Contact />
       
     </main>
+    </SmoothScroll>
+    
+    
   )
 }
 

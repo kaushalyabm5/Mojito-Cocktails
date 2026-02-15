@@ -15,6 +15,21 @@
     --font-serif: "DM Serif Text", serif;
 }
 
+* {
+  backface-visibility: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+section {
+  will-change: transform;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
 html,
 body {
     width: 100%;
@@ -22,7 +37,10 @@ body {
     color: white;
     scroll-behavior: smooth;
     overflow-x: hidden;
+    
 }
+
+
 
 @utility flex-center {
     @apply flex justify-center items-center;

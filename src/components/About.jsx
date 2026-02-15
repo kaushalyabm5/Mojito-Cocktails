@@ -25,7 +25,7 @@ const About = () => {
     })
 
   return (
-    <div id='about' className='lg:px-20'>
+    <div id='about'>
         <div className='mb-16 md:px-0 px-5'>
             <div className='content'>
                 <div className='md:col-span-8'>
@@ -52,26 +52,28 @@ const About = () => {
             </div>
         </div>
 
-        <div className='top-grid'>
+      <div className='grid grid-cols-12 gap-4 top-grid'>
 
-            <div className='md:col-span-3'>
-                <div className='noisy'>
-                    <img src='/images/abt1.png' alt='grid-img-1' />
-                </div>
-            </div>
+  <div className='col-span-4 md:col-span-3'>
+    <div className='noisy'>
+      <img src='/images/abt1.png' alt='grid-img-1' />
+    </div>
+  </div>
 
-            <div className='md:col-span-6'>
-                <div className='noisy'>
-                    <img src='/images/abt2.png' alt='grid-img-3' />
-                </div>
-            </div>
+  <div className='col-span-4 md:col-span-6'>
+    <div className='noisy'>
+      <img src='/images/abt2.png' alt='grid-img-3' />
+    </div>
+  </div>
 
-            <div className='md:col-span-3'>
-                <div className='noisy'>
-                    <img src='/images/abt5.png' alt='grid-img-5' />
-                </div>
-            </div>
-        </div>
+  <div className='col-span-4 md:col-span-3'>
+    <div className='noisy'>
+      <img src='/images/abt5.png' alt='grid-img-5' />
+    </div>
+  </div>
+
+</div>
+
 
         <div className='bottom-grid'>
 

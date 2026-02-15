@@ -13,6 +13,7 @@ const Contact = () => {
             scrollTrigger: {
                 trigger: '#contact',
                 start: 'top center',
+                toggleActions: "restart none none none"
             },
             ease: 'power.inOut'
         })
